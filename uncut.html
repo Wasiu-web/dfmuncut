@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> button for links?</title>
+</head>
+<body>
+    <p>Sights and Sounds</p>
+    <button onclick="gotoLink(this)" value="https://www.google.com">Google website </button>
+    <button onclick="gotoLink(this)" value="https://wasiu-web.github.io/Dfm-video-caller/?fbclid=IwAR1DGPTpqdbWT6WE0ufw_9RtNeh4c6CorCrC_zUpXs2HV3mpdhC-m1ZS9Pg">DFM website </button>
+    <button onclick="gotoLink(this)" value="https://www.amazon.com">Amazon website </button>
+<script>
+function gotoLink(link){
+    console.log(link.value);
+    window.open(link.value);
+};        
+</script>
+</body>
+
+
+</html>
